@@ -1,36 +1,49 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import NyaySetu from '../assets/portfolio/nyaySetu-chat-img.png'
+import gDoc from '../assets/portfolio/gDoc-clone-pics.png'
+import OneStop from '../assets/portfolio/Onestop-pic.png'
+import CodeEditor from '../assets/portfolio/codeEditor-pics.png'
+import FilePilot from '../assets/portfolio/filepilot pics.png'
+import CryptoWiz from '../assets/portfolio/cryptoWiz_pic.png'
+import Todo from '../assets/portfolio/todo-app-image.png'
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: NyaySetu,
+      details:'AI-based Web application designed and developed to provide crucial support to marginalized communities facing literacy and lingustic challenges within the Indian legal system.',
+      header:'NyaySetu Assisstant'
     },
     {
       id: 2,
-      src: reactParallax,
+      src: OneStop,
+      details:'A real-time web application developed to provide users with a platform for posting events in a categorized manner and engaging with other users through the comment section.',
+      header:'OneStop',
     },
     {
       id: 3,
-      src: navbar,
+      src: CryptoWiz,
+      details:'An online portal for crypto-lovers to dive into the in-depth details of various cryptocurrencies, their markets, daily exchange values, and day-to-day crypto news.',
+      header:'CryptoWiz',
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: CodeEditor,
+      details:'An online dynamic interface providing real-time execution of HTML, CSS, and JavaScript code. It is also capable of detecting tags. ',
+      header:'CodeEditor',
     },
     {
       id: 5,
-      src: installNode,
+      src: FilePilot,
+      details:'A web application developed with the aim of providing fast and simple file sharing instantly through the generation of shareable links.',
+      header:'FilePilot',
     },
     {
       id: 6,
-      src: reactWeather,
+      src: Todo,
+      details:'Dynamic Todo-app ,crafted to simplifying task management with essential features like add, delete, and edit, sorted by newest first. ',
+      header:'To-do app'
     },
   ];
 
@@ -44,23 +57,30 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6 text-lg">Check out some of my work right here</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
-          <div key={id} className="shadow-md shadow-gray-600 rounded-lg hover:scale-105 transition-transform duration-300">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 "
-              />
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:text-blue-500">
+          {portfolios.map(({ id, src,details,header }) => (
+            <div
+              key={id}
+              className="shadow-md shadow-gray-600 rounded-lg hover:scale-105 transition-transform duration-300"
+            >
+              <div class="overflow-hidden text-center">
+                 <img src={src} alt="" className="rounded-md duration-200 max-w-full h-40" />
+              </div>
+              <div>
+                 <div className="px-2 py-2 text-lg font-semibold">{header}</div>
+              <div className="px-2 py-2 text-base">
+                 {details}
+              </div>
+              </div>
+              <div className="flex flex-row">
+                <button className="w-1/2 px-4 py-2 m-4  duration-200 transform hover:scale-105 hover:bg-blue-500 hover:text-white focus:outline-none focus:ring focus:border-blue-300 border border-blue-500 rounded-md shadow-md">
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:text-blue-500">
-                  Code
+                <button className="w-1/2 px-4 py-2 m-4 duration-200 transform hover:scale-105 hover:bg-blue-500 hover:text-white focus:outline-none focus:ring focus:border-blue-300 border border-blue-500 rounded-md shadow-md">
+                   Code
                 </button>
               </div>
             </div>

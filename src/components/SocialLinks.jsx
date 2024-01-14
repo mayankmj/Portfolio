@@ -13,7 +13,7 @@ const SocialLinks = () => {
                     Linkedin <FaLinkedin size={30} />
                   </>
             ),
-            goto: 'https://github.com',
+            goto: 'https://www.linkedin.com/in/mayank-johari-52aa05202/',
             style: 'rounded-tr-md',
         },
         {
@@ -43,7 +43,7 @@ const SocialLinks = () => {
                     Resume <BsFillPersonLinesFill size={30} />
                   </>
             ),
-            goto: 'https://github.com',
+            goto: 'https://drive.google.com/file/d/1fpxcdUhl6RoTwlF2m6A30Zq0KEtKCVg5/view?usp=sharing',
             style: 'rounded-br-md',
             downlaod:true,
         },
