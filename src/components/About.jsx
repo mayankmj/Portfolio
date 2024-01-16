@@ -21,8 +21,8 @@ const About = () => {
     {
       id: 3,
       icon: <VscFolderLibrary />,
-      heading: "Projects",
-      details: "6+ years",
+      heading: "Support",
+      details: "Hybrid",
     },
   ];
   const about_des="I'm a full stack web developer with a deep understanding of web technologies and a keen eye for detail. I love planning projects from scratch and executing them till deployment. I'm passionate about building beautiful and functional websites that meet the needs of my clients.";
@@ -56,6 +56,7 @@ const About = () => {
               href="https://drive.google.com/file/d/1fpxcdUhl6RoTwlF2m6A30Zq0KEtKCVg5/view?usp=sharing"
               smooth
               target="_blank"
+              rel="noreferrer"
               duration={500}
               className="group text-xl text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer transition duration-100 ease-in-out transform hover:scale-105"
             >
