@@ -54,7 +54,7 @@ const Portfolio = () => {
       src: Todo,
       details:'Dynamic Todo-app ,crafted to simplifying task management with essential features like add, delete, and edit, sorted by newest first. ',
       header:'To-do app',
-      demo:'https://todos-01.netlify.app/',
+      demo:'https://todos1-application.vercel.app/',
       code:'https://github.com/mayankmj/todo'
     },
   ];
