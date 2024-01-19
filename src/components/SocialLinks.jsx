@@ -23,7 +23,7 @@ const SocialLinks = () => {
                     github <FaGithub size={30} />
                   </>
             ),
-            goto: 'https://github.com',
+            goto: 'https://github.com/mayankmj',
             // style: 'rounded-tr-md',
         },
         {
