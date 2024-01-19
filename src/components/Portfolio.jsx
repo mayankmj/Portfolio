@@ -46,7 +46,7 @@ const Portfolio = () => {
       src: FilePilot,
       details:'A web application developed with the aim of providing fast and simple file sharing instantly through the generation of shareable links.',
       header:'FilePilot',
-      demo:'https://filepilot.netlify.app/',
+      demo:'https://file-pilot.vercel.app/',
       code:'https://github.com/mayankmj/FilePilot',
     },
     {
