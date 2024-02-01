@@ -12,7 +12,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: NyaySetu,
-      details:'AI-based Web application designed and developed to provide crucial support to marginalized communities facing literacy and lingustic challenges within the Indian legal system.',
+      details:'AI-based Web application designed and developed to provide crucial support to marginalized communities facing literacy and linguistic challenges within the Indian legal system.',
       header:'NyaySetu Assisstant',
       demo:'https://nyay-setu-assisstant.vercel.app/',
       code:'https://github.com/orgs/NyayaSetu-SIH',
