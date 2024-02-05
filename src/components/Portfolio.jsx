@@ -62,7 +62,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -92,14 +92,14 @@ const Portfolio = () => {
                  href={demo}
                  target="_blank"
                  rel="noreferrer"
-                className="w-1/2 px-4 py-2 m-4  duration-200 transform hover:scale-105 hover:bg-blue-500 hover:text-white focus:outline-none focus:ring focus:border-blue-300 border border-blue-500 rounded-md shadow-md">
+                className="w-1/2 px-4 py-2 m-4 duration-200 hover:scale-105 hover:bg-blue-500 hover:text-white focus:outline-none focus:ring focus:border-blue-300 border border-blue-500 rounded-md shadow-md">
                   <p className="flex justify-center">Demo</p>
                 </a>
                 <a
                  href={code}
                  target='_blank'
                  rel="noreferrer"
-                className="w-1/2 px-4 py-2 m-4 duration-200 transform hover:scale-105 hover:bg-blue-500 hover:text-white focus:outline-none focus:ring focus:border-blue-300 border border-blue-500 rounded-md shadow-md">
+                className="w-1/2 px-4 py-2 m-4 duration-200 hover:scale-105 hover:bg-blue-500 hover:text-white focus:outline-none focus:ring focus:border-blue-300 border border-blue-500 rounded-md shadow-md">
                   <p className="flex justify-center"> Code </p>
                 </a>
               </div>
